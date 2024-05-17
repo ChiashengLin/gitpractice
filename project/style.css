@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0
+}
+/* em 和 i 斜体的文字不倾斜 */
+em,
+i {
+    font-style: normal
+}
+/* 去掉li 的小圆点 */
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+
+.works-list li{
+    list-style: none;
+}
+
+.works-list{
+    width:1296px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.works-list li{
+    padding:20px;
+}
+
+
+.works-list li img{
+    width:400px;
+}
+
+h2{
+    padding:10px;
+}
+
+.works-list p{
+    padding:0 10px;
+}
+
+.works-tags{
+    display: flex;
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.works-tags li{
+    background-color:lightgrey;
+    color: #393939;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 8px;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.nav li{
+    padding:0 10px;
+}
